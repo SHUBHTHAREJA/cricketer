@@ -1,0 +1,79 @@
+img {
+    width: 200px;
+    border-radius: 50%;
+
+
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to right, red, yellow);
+    float: down;
+
+
+}
+
+h1 {
+    text-shadow: 2px 2px #f8BBD0;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    color: purple;
+}
+
+.menu {
+    /*removes the bullets */
+    list-style: none;
+    /*it changes the way of writing the text */
+    font-family: sans-serif;
+    /*it sets the posirtion absolute */
+    position: fixed;
+    /*it goes  10px up  */
+    top: 10px;
+    /*it goes  10px right */
+    right: 30px;
+    /*it brings everything in top */
+    z-index: 9;
+    cursor: pointer;
+}
+
+.link {
+    /*arranges everything in left */
+    float: left;
+    /*it changes it like a block */
+    display: block;
+    /*colr changes to blck */
+    color: black;
+    /*it goes  5px up  */
+    padding-top: 5px;
+    /*it goes  9px left  */
+    padding-left: 9px;
+    /*it goes  9px right  */
+    padding-right: 9px;
+    /*it goes  5px down  */
+    padding-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: dodgerblue;
+    font-size: 22px;
+}
+
+
+p{
+    font-size: 30px;
+    color: darkblue;
+}
+html{
+   scroll-behavior:smooth; 
+}
+
